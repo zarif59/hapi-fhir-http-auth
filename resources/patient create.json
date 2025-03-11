@@ -1,0 +1,59 @@
+{
+  "resourceType": "Patient",
+  "active": true,
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "NRIC",
+            "display": "Malaysian National Registration Identity Card"
+          }
+        ]
+      },
+      "system": "https://www.jpn.gov.my/my/perkhidmatan/kad-pengenalan",
+      "value": "901231-14-5678",
+      "assigner": {
+        "display": "Jabatan Pendaftaran Negara"
+      }
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Bin Che Abd Rani",
+      "given": ["Zarif Fathurrahman"]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0123456789",
+      "use": "home",
+      "rank": 1
+    },
+    {
+      "system": "email",
+      "value": "zarif@test.com",
+      "use": "home",
+      "rank": 2
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1999-04-22",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "type": "physical",
+      "text": "lorong jati, kampung tualang, manir",
+      "line": ["lot 9892, lorong jati, kg tualang"],
+      "city": "Kuala Terengganu",
+      "state": "Terengganu",
+      "district": "Manir",
+      "postalCode": "21200"
+    }
+  ]
+}
